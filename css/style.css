@@ -346,8 +346,8 @@ header{
 }
 
 .my-work{
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
 }
 
@@ -386,17 +386,18 @@ header{
     text-align:center;
 }
 
-.footer__link{
+.footer-link{
     font-weight: var(--fw-bold);
-    text-align:center;
+    text-align: center;
+    margin-left: 619px;
 }
 
-.footer__link:hover,
+.footer-link:hover,
 .social-list__link:hover{
     opacity: .7;
 }
 
-.footer__link:hover{
+.footer-link:hover{
     text-decoration: underline;
 }
 
